@@ -13,8 +13,6 @@ import express, { Request, Response } from "express";
   // Use the body parser middleware for post requests
   app.use(bodyParser.json());
 
-  // @TODO1 IMPLEMENT A RESTFUL ENDPOINT
-  // GET /filteredimage?image_url={{URL}}
   
 
   app.get( "/filteredimage/", async ( req: Request, res: Response ) => {
